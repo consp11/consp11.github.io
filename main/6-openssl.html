@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<!-- consp.8vs.ru fdsc -->
+
+<html>
+<head>
+<title>Памятка по OpenSSL</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body style="white-space: pre-wrap; font-size: 26px">
+
+<a href="../index.html">На главную</a>
+
+<h1>Памятка по OpenSSL</h1>
+
+Версия OpenSSL
+<span style="background-color: yellow">openssl version</span>
+
+
+Перекодировать двоичный файл в кодировку base64
+<span style="background-color: yellow">openssl base64 -A -in W:\sym.key -out W:\pwds.txt</span>
+
+Из кодировки обратно
+<span style="background-color: yellow">openssl base64 -A -d -in W:\pwds.txt -out W:\sym.key</span>
+
+base64 можно использовать для отсылки двоичных файлов в виде текста либо для генерации парольного файла для OpenSSL из двоичного случайного файла, т.к. пароль для OpenSSL должен быть на первой строке файла.
+
+Уберите параметр "-A" если хотите, чтобы данные в base64 были многострочными (не подходит для парольного файла).
+
+
+
+<hr>
+Вычисление хешей
+
+Вычислить 512-битный хеш по стандарту sha-3. Результат в файл W:\hash
+<span style="background-color: yellow">openssl dgst -sha3-512 -out W:\hash W:\data.txt</span>
+
+Результат на экран консоли. Хеш sha-2 512 бит
+<span style="background-color: yellow">openssl dgst -sha512 W:\data.txt</span>
+
+hmac: хеш sha-3 512 бит файла W:\data.txt с паролем из файла file:W:\pwd.txt .
+<span style="background-color: yellow">openssl dgst -sha3-512 -hmac file:W:\pwd.txt -out W:\hmac W:\data.txt</span>
+
+hmac может применяться для дополнительного удостоверения подлинности сообщения. Если файл W:\pwd.txt есть у обоих собеседников, то они могут передать data.txt и hmac, не передавая при этом pwd.txt. Если hmac сходится, то файл подлинный.
+
+
+Все пароли в файлах паролей должны быть на первой строке текстового файла как для hmac, так и для симметричного шифрования. Строка должна быть только одна, т.к. вторая может тоже задать пароль (для выходного файла, но только в некоторых режимах).
+
+<hr>
+Симметричное шифрование
+
+Доступные симметричные шифры
+<span style="background-color: yellow">openssl enc -ciphers</span>
+
+OpenSSL никогда не выравнивает размер файлов. Поэтому, старайтесь при шифровании шифровать архивы, где один из файлов будет просто заполнен белибердой, чтобы скрыть истинный размер шифруемого файла. Особенно это касается небольших файлов.
+
+Сгенерировать файл со случайными байтами (1024 байта):
+<span style="background-color: yellow">openssl rand -out W:\noise 1024</span>
+В иных случаях (для генерации ключей) лучше использовать другие генераторы случайных чисел.
+
+
+Шифруем AES 256 бит в режиме CBC с паролем из файла W:\pwds.txt (не используйте тот же файл пароля, что и для hmac! не забывайте, что этот файл также надо шифровать при хранении и расшифровывать при использовании).
+<span style="background-color: yellow">openssl enc -e -aes-256-cbc -md sha3-512 -salt -pbkdf2 -iter +1000000 -pass file:W:\pwds.txt -in W:\data.txt -out W:\data.txt.crypted</span>
+
+Расшифровать
+<span style="background-color: yellow">openssl enc -d -aes-256-cbc -md sha3-512 -salt -pbkdf2 -iter +1000000 -pass file:W:\pwds.txt -in W:\data.txt.crypted -out W:\decrypted.txt</span>
+
+
+Аналогично с шифром chacha20
+<span style="background-color: yellow">openssl enc -e -chacha20 -md sha3-512 -salt -pbkdf2 -iter +1000000 -pass file:W:\pwds.txt -in W:\data.txt -out W:\data.txt.crypted</span>
+
+<span style="background-color: yellow">openssl enc -d -chacha20 -md sha3-512 -salt -pbkdf2 -iter +1000000 -pass file:W:\pwds.txt -in W:\data.txt.crypted -out W:\decrypted.txt</span>
+
+
+Если вы хотите вводить пароль с клавиатуры
+<span style="background-color: yellow">openssl enc -e -chacha20 -md sha3-512 -salt -pbkdf2 -iter +1000000 -in W:\data.txt -out W:\data.txt.crypted</span>
+
+<span style="background-color: yellow">openssl enc -d -chacha20 -md sha3-512 -salt -pbkdf2 -iter +1000000 -in W:\data.txt.crypted -out W:\decrypted.txt</span>
+
+На всякий случай проверяйте, что файлы действительно зашифровались. Если забыть ввести алгоритм шифрования, то файл просто скопируется в расшифрованном виде.
+
+
+<hr>
+Асимметричное шифрование: генерация ключей
+
+В файле W:\rnd сгенерированная другим приложением псевдослучайная последовательность (не обязательно)
+<span style="background-color: yellow">openssl genrsa -rand W:\rnd -out W:\key.priv 16384</span>
+Извлечь публичный ключ
+<span style="background-color: yellow">openssl rsa -in W:\key.priv -out W:\key.pub -pubout -check</span>
+Проверьте, что key.pub намного меньше, чем key.priv (например, 3 кб и 13 кб).
+key.priv нужно зашифровать вручную, как показано выше (варианты автошифрования ниже немного хуже).
+
+То же, но шифрованный AES с паролем с клавиатуры
+<span style="background-color: yellow">openssl genrsa -rand W:\rnd -out W:\key.priv -aes-256-cbc 16384</span>
+Извлечь публичный ключ
+<span style="background-color: yellow">openssl rsa -in W:\key.priv -out W:\key.pub -pubout -check</span>
+
+То же, но шифрованный с паролем из файла W:\pwds.txt
+<span style="background-color: yellow">openssl genrsa -rand W:\rnd -out W:\key.priv -aes-256-cbc -passout file:W:\pwds.txt 16384</span>
+Извлечь публичный ключ
+<span style="background-color: yellow">openssl rsa -passin file:W:\pwds.txt -in W:\key.priv -out W:\key.pub -pubout -check</span>
+
+<hr>
+Асимметричное шифрование: шифрование
+
+Зашифровать RSA можно файл, несколько меньше размера ключа RSA. Так что не пытайтесь зашифровать 256-битный файл ключом длиной 2048 битов - не получится.
+
+
+Зашифровать ключевой файл W:\sym.key с помощью RSA (RSA шифрует только маленькие файлы)
+<span style="background-color: yellow">openssl rsautl -inkey W:\key.pub -pubin -encrypt -oaep -in W:\sym.key -out W:\sym.key.rsa</span>
+
+Расшифровать ключевой файл
+<span style="background-color: yellow">openssl rsautl -inkey W:\key.priv -decrypt -oaep -in W:\sym.key.rsa -out W:\sym.key</span>
+
+<span style="background-color: yellow"></span>
+
+<hr>
+Асимметричное шифрование: подписывание и проверка подписи
+
+Вычисляем подписываемый хеш
+<span style="background-color: yellow">openssl dgst -sha3-512 -out W:\hash W:\data.txt</span>
+
+Подписываем хеш
+<span style="background-color: yellow">openssl rsautl -sign -inkey W:\key.priv -in W:\hash -out W:\sig</span>
+
+Расшифровываем хеш для проверки
+<span style="background-color: yellow">openssl rsautl -verify -pubin -inkey W:\key.pub -in W:\sig -out W:\hash2</span>
+
+Далее проверяем на идентичность вычисленный от файла hash и расшифрованный из подписи hash2 вручную.
+
+<span style="background-color: yellow"></span>
+
+<hr>
+
+<a href=./6-keysAControl.html>???</a>
+
+</body>
+</html>
