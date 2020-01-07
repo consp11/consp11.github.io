@@ -199,6 +199,44 @@ cd openssl/bin
 6) В идеале, оба собеседника передают друг другу сообщения (любые случайные заранее неизвестные). Затем вычисляют хеши полученных сообщений и передают друг другу для сверки. Если хеши верные, то они сообщают друг другу об этом.
 После этого шифрованный канал связи считается установленным.
 
+Случайные значения можно сгенерировать генератором паролей KeePass или с помощью команды OpenSSL
+Каждый из собеседников делает примерно одно и то же.
+Генерирует случайный файл для проверки связи
+<span style="background-color: yellow">openssl rand -out W:\noise 64</span>
+
+Затем шифрует W:\noise ключом sym.key выбранной программой. Например, как это выше указано в пункте 7.
+<span style="background-color: yellow">openssl enc -e -aes-256-cbc -md sha3-512 -salt -pbkdf2 -iter +1000000 -pass file:W:\pwd.txt -in W:\noise -out W:\data.crypted</span>
+
+Отсылает собеседнику файл data.crypted. Собеседник расшифровывает файл
+<span style="background-color: yellow">openssl enc -d -aes-256-cbc -md sha3-512 -salt -pbkdf2 -iter +1000000 -pass file:W:\pwd.txt -in W:\data.crypted -out W:\data</span>
+и вычисляет хеш
+<span style="background-color: yellow">openssl dgst -out W:\dgst -sha3-512 W:\data</span>
+
+Шифрует хеш
+<span style="background-color: yellow">openssl enc -e -aes-256-cbc -md sha3-512 -salt -pbkdf2 -iter +1000000 -pass file:W:\pwd.txt -in W:\dgst -out W:\dgst.crypted</span>
+
+Отсылает его обратно.
+
+Полученный хеш расшифровывается
+<span style="background-color: yellow">openssl enc -d -aes-256-cbc -md sha3-512 -salt -pbkdf2 -iter +1000000 -pass file:W:\pwd.txt -in W:\dgst.crypted -out W:\dgst2</span>
+
+Затем сравнивается два файла dgst и dgst2:
+хеш исходного файла
+<span style="background-color: yellow">openssl dgst -out W:\dgst -sha3-512 W:\data</span>
+и расшифрованный файл хеша dgst2
+
+Если всё в порядке, собеседник шлёт другому собеседнику подтверждение (в шифрованном виде, разумеется).
+
+
+
+Надеюсь, что когда вы выполняете эти манипуляции, вы хорошо понимаете все параметры. Они написаны здесь как памятка, но вы должны хорошо понимать, что стоит за этими параметрами и подставлять те имена файлов, которые вам нужны.
+
+Никогда не делайте того, что не понимаете. Спросите у кого-нибудь (если это возможно) и/или почитайте справку. Например, в OpenSSL есть команда
+<span style="background-color: yellow">openssl help</span>
+Если вы хотите узнать, например, краткую справку по команде rand, наберите
+<span style="background-color: yellow">openssl help rand</span>
+Более полное описание вы можете найти в интернете или посмотрев страницы man в Linux.
+
 <hr>
 
 <a href=./6-keysSym.html>Обмен симметричными ключами</a>. 
