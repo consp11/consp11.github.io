@@ -1,1 +1,2 @@
 ﻿Disallow: /data/about.html
+Disallow: /template.html
