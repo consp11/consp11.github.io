@@ -1,4 +1,6 @@
-﻿Sitemap: https://consp11.github.io/sitemap.txt
+﻿User-agent: *
+
+Sitemap: https://consp11.github.io/sitemap.txt
 
 Disallow: /data/about.html
 Disallow: /template.html
