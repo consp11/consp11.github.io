@@ -1,2 +1,4 @@
-﻿Disallow: /data/about.html
+﻿Sitemap: https://consp11.github.io/sitemap.txt
+
+Disallow: /data/about.html
 Disallow: /template.html
