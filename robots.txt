@@ -1,6 +1,10 @@
 User-agent: *
 
-Sitemap: https://consp11.github.io/sitemap.txt
+# Sitemap: https://consp11.github.io/sitemap.txt
+# yearly
+# monthly
+# weekly
+Sitemap: https://consp11.github.io/sitemap.xml
 
 Disallow: /data/about.html
 Disallow: /template.html
