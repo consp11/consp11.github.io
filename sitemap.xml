@@ -1,174 +1,248 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+﻿<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://consp11.github.io/</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/consp11.github.io/services.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/main/1-lie.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/edu/lie.y8fa-1.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/main/2-isolation.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/main/3-isolation2.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/main/4-occupation.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/main/5-computer.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/main/5-paper.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/main/6-flash.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/main/6-keys.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/main/6-keysAControl.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/main/6-openssl.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/main/6-keysSym.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/main/7-princ.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/main/7-princ2.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/main/7-princ3.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/main/7-princ4.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/main/8-cpgy.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/main/9-examples.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/main/9-examples2.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/main/9-examples3.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/main/9-examples4.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/index.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/edu/lie.y8fa.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/main/6-flashreq.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://consp11.github.io/main/9-examples5.html</loc>
-  <lastmod>2020-05-13T17:14:13+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+<loc>https://consp11.github.io/data/9F1DCCDF.pub</loc>
+<lastmod>2020-02-17</lastmod>
+<priority>0.77</priority>
 </url>
 
+<url>
+<loc>https://consp11.github.io/data/about.html</loc>
+<lastmod>2020-05-13</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/data/C64BE61A.pub</loc>
+<lastmod>2020-02-17</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/data/keys-primary-20200512.7z</loc>
+<lastmod>2020-05-13</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/data/MainKeys_20191214.7z</loc>
+<lastmod>2020-02-17</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/data/rtdb.7z</loc>
+<lastmod>2020-02-17</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/data/rtdbForLinux.7z</loc>
+<lastmod>2020-02-17</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/data/rtdbsupport.gif</loc>
+<lastmod>2020-02-17</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/edu/lie.y8fa.html</loc>
+<lastmod>2020-02-17</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/edu/lie.y8fa-1.html</loc>
+<lastmod>2020-02-17</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/index.html</loc>
+<lastmod>2020-05-13</lastmod>
+<priority>1.00</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/1-lie.html</loc>
+<lastmod>2020-05-13</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/2-isolation.html</loc>
+<lastmod>2020-05-13</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/3-isolation2.html</loc>
+<lastmod>2020-05-13</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/4-occupation.html</loc>
+<lastmod>2020-02-17</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/5-computer.html</loc>
+<lastmod>2020-05-13</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/5-paper.html</loc>
+<lastmod>2020-05-13</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/6-flash.html</loc>
+<lastmod>2020-05-13</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/6-flashreq.html</loc>
+<lastmod>2020-05-13</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/6-keys.html</loc>
+<lastmod>2020-05-13</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/6-keysAControl.html</loc>
+<lastmod>2020-05-13</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/6-keysSym.html</loc>
+<lastmod>2020-05-13</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/6-openssl.html</loc>
+<lastmod>2020-05-13</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/7-princ.html</loc>
+<lastmod>2020-05-13</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/7-princ2.html</loc>
+<lastmod>2020-02-17</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/7-princ3.html</loc>
+<lastmod>2020-02-17</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/7-princ4.html</loc>
+<lastmod>2020-05-13</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/8-cpgy.html</loc>
+<lastmod>2020-05-13</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/9-examples.html</loc>
+<lastmod>2020-05-13</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/9-examples2.html</loc>
+<lastmod>2020-05-13</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/9-examples3.html</loc>
+<lastmod>2020-05-13</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/9-examples4.html</loc>
+<lastmod>2020-04-03</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/9-examples5.html</loc>
+<lastmod>2020-04-03</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/img/9-policeraid.drawio</loc>
+<lastmod>2020-02-17</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/img/9-policeraidx18.svg</loc>
+<lastmod>2020-02-17</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/README.md</loc>
+<lastmod>2020-02-17</lastmod>
+<priority>0.88</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/services.html</loc>
+<lastmod>2020-05-13</lastmod>
+<priority>0.88</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/sitemap.txt</loc>
+<lastmod>2020-05-13</lastmod>
+<priority>0.88</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/sitemap.xml</loc>
+<lastmod>2020-05-18</lastmod>
+<priority>0.88</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/sitemap-old.xml</loc>
+<lastmod>2020-05-16</lastmod>
+<priority>0.88</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/template.html</loc>
+<lastmod>2020-02-17</lastmod>
+<priority>0.88</priority>
+</url>
 
 </urlset>
