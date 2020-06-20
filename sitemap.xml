@@ -1,5 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://consp11.github.io/data/keys-primary-20200611.7z</loc>
+<lastmod>2020-06-11</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/data/keys-primary-20200618.7z</loc>
+<lastmod>2020-06-18</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
 <loc>https://consp11.github.io/data/rtdb_20200603-linux.zip</loc>
 <lastmod>2020-06-03</lastmod>
 <priority>0.77</priority>
@@ -37,7 +49,7 @@
 
 <url>
 <loc>https://consp11.github.io/index.html</loc>
-<lastmod>2020-05-30</lastmod>
+<lastmod>2020-06-20</lastmod>
 <priority>1.00</priority>
 </url>
 
@@ -61,7 +73,7 @@
 
 <url>
 <loc>https://consp11.github.io/main/4-occupation.html</loc>
-<lastmod>2020-02-17</lastmod>
+<lastmod>2020-06-20</lastmod>
 <priority>0.77</priority>
 </url>
 
@@ -183,6 +195,12 @@
 <loc>https://consp11.github.io/main/img/9-policeraidx18.svg</loc>
 <lastmod>2020-02-17</lastmod>
 <priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/new.html</loc>
+<lastmod>2020-06-20</lastmod>
+<priority>0.88</priority>
 </url>
 
 <url>
