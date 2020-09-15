@@ -42,6 +42,18 @@
 </url>
 
 <url>
+<loc>https://consp11.github.io/data/keys-primary-2020-0830-1249.7z</loc>
+<lastmod>2020-08-30</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/data/keys-primary-2020-0914-1207.7z</loc>
+<lastmod>2020-09-14</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
 <loc>https://consp11.github.io/data/rtdb_20200603-linux.zip</loc>
 <lastmod>2020-06-03</lastmod>
 <priority>0.77</priority>
@@ -78,9 +90,39 @@
 </url>
 
 <url>
+<loc>https://consp11.github.io/edu/tags.txt</loc>
+<lastmod>2020-09-15</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/edu/манипуляции.txt</loc>
+<lastmod>2020-08-27</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/edu/Манипуляции/youtube-202009.txt</loc>
+<lastmod>2020-09-13</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
 <loc>https://consp11.github.io/index.html</loc>
-<lastmod>2020-08-07</lastmod>
+<lastmod>2020-09-15</lastmod>
 <priority>1.00</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/10-crypto.html</loc>
+<lastmod>2020-09-15</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/10-crypto-keys.html</loc>
+<lastmod>2020-09-15</lastmod>
+<priority>0.77</priority>
 </url>
 
 <url>
@@ -103,7 +145,7 @@
 
 <url>
 <loc>https://consp11.github.io/main/4-occupation.html</loc>
-<lastmod>2020-06-20</lastmod>
+<lastmod>2020-09-15</lastmod>
 <priority>0.77</priority>
 </url>
 
@@ -115,7 +157,7 @@
 
 <url>
 <loc>https://consp11.github.io/main/5-paper.html</loc>
-<lastmod>2020-05-18</lastmod>
+<lastmod>2020-09-15</lastmod>
 <priority>0.77</priority>
 </url>
 
@@ -193,25 +235,25 @@
 
 <url>
 <loc>https://consp11.github.io/main/9-examples2.html</loc>
-<lastmod>2020-08-09</lastmod>
+<lastmod>2020-09-02</lastmod>
 <priority>0.77</priority>
 </url>
 
 <url>
 <loc>https://consp11.github.io/main/9-examples3.html</loc>
-<lastmod>2020-08-11</lastmod>
+<lastmod>2020-09-15</lastmod>
 <priority>0.77</priority>
 </url>
 
 <url>
 <loc>https://consp11.github.io/main/9-examples4.html</loc>
-<lastmod>2020-05-22</lastmod>
+<lastmod>2020-09-02</lastmod>
 <priority>0.77</priority>
 </url>
 
 <url>
 <loc>https://consp11.github.io/main/9-examples5.html</loc>
-<lastmod>2020-05-22</lastmod>
+<lastmod>2020-09-15</lastmod>
 <priority>0.77</priority>
 </url>
 
@@ -229,7 +271,7 @@
 
 <url>
 <loc>https://consp11.github.io/new.html</loc>
-<lastmod>2020-08-14</lastmod>
+<lastmod>2020-09-02</lastmod>
 <priority>0.88</priority>
 </url>
 
@@ -241,19 +283,19 @@
 
 <url>
 <loc>https://consp11.github.io/rss.xml</loc>
-<lastmod>2020-07-12</lastmod>
+<lastmod>2020-09-02</lastmod>
 <priority>0.88</priority>
 </url>
 
 <url>
 <loc>https://consp11.github.io/services.html</loc>
-<lastmod>2020-08-18</lastmod>
+<lastmod>2020-09-15</lastmod>
 <priority>0.88</priority>
 </url>
 
 <url>
 <loc>https://consp11.github.io/template.html</loc>
-<lastmod>2020-05-22</lastmod>
+<lastmod>2020-09-15</lastmod>
 <priority>0.88</priority>
 </url>
 
