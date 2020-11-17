@@ -78,6 +78,12 @@
 </url>
 
 <url>
+<loc>https://consp11.github.io/data/keys-primary-2020-1115-2147.7z</loc>
+<lastmod>2020-11-15</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
 <loc>https://consp11.github.io/data/rtdb_20200603-linux.zip</loc>
 <lastmod>2020-06-03</lastmod>
 <priority>0.77</priority>
@@ -133,13 +139,13 @@
 
 <url>
 <loc>https://consp11.github.io/edu/Манипуляции/youtube-202009.txt</loc>
-<lastmod>2020-10-03</lastmod>
+<lastmod>2020-11-16</lastmod>
 <priority>0.77</priority>
 </url>
 
 <url>
 <loc>https://consp11.github.io/index.html</loc>
-<lastmod>2020-09-15</lastmod>
+<lastmod>2020-11-17</lastmod>
 <priority>1.00</priority>
 </url>
 
@@ -258,32 +264,44 @@
 </url>
 
 <url>
+<loc>https://consp11.github.io/main/9-1-detention.html</loc>
+<lastmod>2020-11-17</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
 <loc>https://consp11.github.io/main/9-examples.html</loc>
-<lastmod>2020-07-04</lastmod>
+<lastmod>2020-11-15</lastmod>
 <priority>0.77</priority>
 </url>
 
 <url>
 <loc>https://consp11.github.io/main/9-examples2.html</loc>
-<lastmod>2020-09-02</lastmod>
+<lastmod>2020-11-16</lastmod>
 <priority>0.77</priority>
 </url>
 
 <url>
 <loc>https://consp11.github.io/main/9-examples3.html</loc>
-<lastmod>2020-09-15</lastmod>
+<lastmod>2020-11-15</lastmod>
 <priority>0.77</priority>
 </url>
 
 <url>
 <loc>https://consp11.github.io/main/9-examples4.html</loc>
-<lastmod>2020-09-02</lastmod>
+<lastmod>2020-11-16</lastmod>
 <priority>0.77</priority>
 </url>
 
 <url>
 <loc>https://consp11.github.io/main/9-examples5.html</loc>
-<lastmod>2020-09-15</lastmod>
+<lastmod>2020-11-17</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/9-examples6.html</loc>
+<lastmod>2020-11-17</lastmod>
 <priority>0.77</priority>
 </url>
 
@@ -319,7 +337,7 @@
 
 <url>
 <loc>https://consp11.github.io/services.html</loc>
-<lastmod>2020-10-08</lastmod>
+<lastmod>2020-11-16</lastmod>
 <priority>0.88</priority>
 </url>
 
