@@ -84,6 +84,12 @@
 </url>
 
 <url>
+<loc>https://consp11.github.io/data/keys-primary-2020-1122-2248.7z</loc>
+<lastmod>2020-11-22</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
 <loc>https://consp11.github.io/data/rtdb_20200603-linux.zip</loc>
 <lastmod>2020-06-03</lastmod>
 <priority>0.77</priority>
@@ -145,13 +151,19 @@
 
 <url>
 <loc>https://consp11.github.io/index.html</loc>
-<lastmod>2020-11-17</lastmod>
+<lastmod>2020-11-20</lastmod>
 <priority>1.00</priority>
 </url>
 
 <url>
+<loc>https://consp11.github.io/index-situations.html</loc>
+<lastmod>2020-11-21</lastmod>
+<priority>0.88</priority>
+</url>
+
+<url>
 <loc>https://consp11.github.io/main/10-crypto.html</loc>
-<lastmod>2020-09-15</lastmod>
+<lastmod>2020-11-21</lastmod>
 <priority>0.77</priority>
 </url>
 
@@ -169,7 +181,7 @@
 
 <url>
 <loc>https://consp11.github.io/main/2-isolation.html</loc>
-<lastmod>2020-05-30</lastmod>
+<lastmod>2020-11-20</lastmod>
 <priority>0.77</priority>
 </url>
 
@@ -193,7 +205,7 @@
 
 <url>
 <loc>https://consp11.github.io/main/5-paper.html</loc>
-<lastmod>2020-10-08</lastmod>
+<lastmod>2020-11-21</lastmod>
 <priority>0.77</priority>
 </url>
 
@@ -265,13 +277,13 @@
 
 <url>
 <loc>https://consp11.github.io/main/9-1-detention.html</loc>
-<lastmod>2020-11-17</lastmod>
+<lastmod>2020-11-20</lastmod>
 <priority>0.77</priority>
 </url>
 
 <url>
 <loc>https://consp11.github.io/main/9-examples.html</loc>
-<lastmod>2020-11-15</lastmod>
+<lastmod>2020-11-20</lastmod>
 <priority>0.77</priority>
 </url>
 
@@ -289,19 +301,19 @@
 
 <url>
 <loc>https://consp11.github.io/main/9-examples4.html</loc>
-<lastmod>2020-11-16</lastmod>
+<lastmod>2020-11-20</lastmod>
 <priority>0.77</priority>
 </url>
 
 <url>
 <loc>https://consp11.github.io/main/9-examples5.html</loc>
-<lastmod>2020-11-17</lastmod>
+<lastmod>2020-11-18</lastmod>
 <priority>0.77</priority>
 </url>
 
 <url>
 <loc>https://consp11.github.io/main/9-examples6.html</loc>
-<lastmod>2020-11-17</lastmod>
+<lastmod>2020-11-20</lastmod>
 <priority>0.77</priority>
 </url>
 
@@ -337,7 +349,7 @@
 
 <url>
 <loc>https://consp11.github.io/services.html</loc>
-<lastmod>2020-11-16</lastmod>
+<lastmod>2020-11-20</lastmod>
 <priority>0.88</priority>
 </url>
 
