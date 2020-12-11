@@ -90,6 +90,12 @@
 </url>
 
 <url>
+<loc>https://consp11.github.io/data/keys-primary-2020-1208-1528.7z</loc>
+<lastmod>2020-12-08</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
 <loc>https://consp11.github.io/data/rtdb_20200603-linux.zip</loc>
 <lastmod>2020-06-03</lastmod>
 <priority>0.77</priority>
@@ -151,8 +157,20 @@
 
 <url>
 <loc>https://consp11.github.io/index.html</loc>
-<lastmod>2020-11-20</lastmod>
+<lastmod>2020-12-11</lastmod>
 <priority>1.00</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/index-attackexamples.html</loc>
+<lastmod>2020-11-25</lastmod>
+<priority>0.88</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/index-instructions.html</loc>
+<lastmod>2020-11-23</lastmod>
+<priority>0.88</priority>
 </url>
 
 <url>
@@ -163,13 +181,25 @@
 
 <url>
 <loc>https://consp11.github.io/main/10-crypto.html</loc>
-<lastmod>2020-11-21</lastmod>
+<lastmod>2020-12-11</lastmod>
 <priority>0.77</priority>
 </url>
 
 <url>
 <loc>https://consp11.github.io/main/10-crypto-keys.html</loc>
-<lastmod>2020-09-15</lastmod>
+<lastmod>2020-12-11</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/10-crypto-quantum.html</loc>
+<lastmod>2020-12-11</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/11-twofactor.html</loc>
+<lastmod>2020-12-11</lastmod>
 <priority>0.77</priority>
 </url>
 
@@ -355,7 +385,7 @@
 
 <url>
 <loc>https://consp11.github.io/template.html</loc>
-<lastmod>2020-09-15</lastmod>
+<lastmod>2020-12-07</lastmod>
 <priority>0.88</priority>
 </url>
 
