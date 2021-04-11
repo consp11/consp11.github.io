@@ -6,6 +6,18 @@
 </url>
 
 <url>
+<loc>https://consp11.github.io/cpgy/2.html</loc>
+<lastmod>2020-12-16</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/cpgy/3.html</loc>
+<lastmod>2021-04-11</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
 <loc>https://consp11.github.io/data/keys-primary-2020-0807-1230.7z</loc>
 <lastmod>2020-08-07</lastmod>
 <priority>0.77</priority>
@@ -96,6 +108,66 @@
 </url>
 
 <url>
+<loc>https://consp11.github.io/data/keys-primary-2020-1216-1735.7z</loc>
+<lastmod>2020-12-16</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/data/keys-primary-2021-0106-1730.7z</loc>
+<lastmod>2021-01-06</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/data/keys-primary-2021-0118-0126.7z</loc>
+<lastmod>2021-01-18</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/data/keys-primary-2021-0201-2244.7z</loc>
+<lastmod>2021-02-01</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/data/keys-primary-2021-0215-1706.7z</loc>
+<lastmod>2021-02-15</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/data/keys-primary-2021-0301-1615.7z</loc>
+<lastmod>2021-03-01</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/data/keys-primary-2021-0315-1931.7z</loc>
+<lastmod>2021-03-15</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/data/keys-primary-2021-0329-1642.7z</loc>
+<lastmod>2021-03-29</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/data/keys-primary-2021-0330-2015.7z</loc>
+<lastmod>2021-03-30</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/data/keys-primary-2021-0407-1903.7z</loc>
+<lastmod>2021-04-07</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
 <loc>https://consp11.github.io/data/rtdb_20200603-linux.zip</loc>
 <lastmod>2020-06-03</lastmod>
 <priority>0.77</priority>
@@ -117,6 +189,12 @@
 <loc>https://consp11.github.io/data/rtdbsupport.gif</loc>
 <lastmod>2020-02-17</lastmod>
 <priority>0.01</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/data/материалы/202102-слежка.txt</loc>
+<lastmod>2021-02-28</lastmod>
+<priority>0.77</priority>
 </url>
 
 <url>
@@ -151,13 +229,25 @@
 
 <url>
 <loc>https://consp11.github.io/edu/Манипуляции/youtube-202009.txt</loc>
-<lastmod>2020-11-16</lastmod>
+<lastmod>2021-02-10</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/free/01.html</loc>
+<lastmod>2021-03-31</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/free/02.html</loc>
+<lastmod>2021-03-26</lastmod>
 <priority>0.77</priority>
 </url>
 
 <url>
 <loc>https://consp11.github.io/index.html</loc>
-<lastmod>2020-12-11</lastmod>
+<lastmod>2021-03-31</lastmod>
 <priority>1.00</priority>
 </url>
 
@@ -169,19 +259,19 @@
 
 <url>
 <loc>https://consp11.github.io/index-instructions.html</loc>
-<lastmod>2020-11-23</lastmod>
+<lastmod>2021-03-31</lastmod>
 <priority>0.88</priority>
 </url>
 
 <url>
 <loc>https://consp11.github.io/index-situations.html</loc>
-<lastmod>2020-11-21</lastmod>
+<lastmod>2021-03-30</lastmod>
 <priority>0.88</priority>
 </url>
 
 <url>
 <loc>https://consp11.github.io/main/10-crypto.html</loc>
-<lastmod>2020-12-11</lastmod>
+<lastmod>2021-04-04</lastmod>
 <priority>0.77</priority>
 </url>
 
@@ -193,13 +283,37 @@
 
 <url>
 <loc>https://consp11.github.io/main/10-crypto-quantum.html</loc>
-<lastmod>2020-12-11</lastmod>
+<lastmod>2020-12-28</lastmod>
 <priority>0.77</priority>
 </url>
 
 <url>
 <loc>https://consp11.github.io/main/11-twofactor.html</loc>
-<lastmod>2020-12-11</lastmod>
+<lastmod>2021-03-29</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/12-1-silence.html</loc>
+<lastmod>2021-03-30</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/12-2-interrogation.html</loc>
+<lastmod>2021-03-31</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/12-3-interrogation2.html</loc>
+<lastmod>2021-03-31</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/12-4-torture.html</loc>
+<lastmod>2021-03-29</lastmod>
 <priority>0.77</priority>
 </url>
 
@@ -307,7 +421,7 @@
 
 <url>
 <loc>https://consp11.github.io/main/9-1-detention.html</loc>
-<lastmod>2020-11-20</lastmod>
+<lastmod>2021-03-31</lastmod>
 <priority>0.77</priority>
 </url>
 
@@ -319,7 +433,7 @@
 
 <url>
 <loc>https://consp11.github.io/main/9-examples2.html</loc>
-<lastmod>2020-11-16</lastmod>
+<lastmod>2021-03-30</lastmod>
 <priority>0.77</priority>
 </url>
 
@@ -331,7 +445,7 @@
 
 <url>
 <loc>https://consp11.github.io/main/9-examples4.html</loc>
-<lastmod>2020-11-20</lastmod>
+<lastmod>2021-03-29</lastmod>
 <priority>0.77</priority>
 </url>
 
@@ -343,7 +457,7 @@
 
 <url>
 <loc>https://consp11.github.io/main/9-examples6.html</loc>
-<lastmod>2020-11-20</lastmod>
+<lastmod>2021-03-29</lastmod>
 <priority>0.77</priority>
 </url>
 
@@ -361,7 +475,7 @@
 
 <url>
 <loc>https://consp11.github.io/new.html</loc>
-<lastmod>2020-09-15</lastmod>
+<lastmod>2021-04-04</lastmod>
 <priority>0.88</priority>
 </url>
 
@@ -373,13 +487,13 @@
 
 <url>
 <loc>https://consp11.github.io/rss.xml</loc>
-<lastmod>2020-09-15</lastmod>
+<lastmod>2021-03-30</lastmod>
 <priority>0.88</priority>
 </url>
 
 <url>
 <loc>https://consp11.github.io/services.html</loc>
-<lastmod>2020-11-20</lastmod>
+<lastmod>2020-12-27</lastmod>
 <priority>0.88</priority>
 </url>
 
