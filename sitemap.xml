@@ -246,8 +246,20 @@
 </url>
 
 <url>
+<loc>https://consp11.github.io/free/03.html</loc>
+<lastmod>2021-04-16</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/free/04.html</loc>
+<lastmod>2021-04-17</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
 <loc>https://consp11.github.io/index.html</loc>
-<lastmod>2021-03-31</lastmod>
+<lastmod>2021-04-17</lastmod>
 <priority>1.00</priority>
 </url>
 
@@ -475,7 +487,7 @@
 
 <url>
 <loc>https://consp11.github.io/new.html</loc>
-<lastmod>2021-04-04</lastmod>
+<lastmod>2021-04-17</lastmod>
 <priority>0.88</priority>
 </url>
 
@@ -493,7 +505,13 @@
 
 <url>
 <loc>https://consp11.github.io/services.html</loc>
-<lastmod>2020-12-27</lastmod>
+<lastmod>2021-04-15</lastmod>
+<priority>0.88</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/services-black.html</loc>
+<lastmod>2021-04-17</lastmod>
 <priority>0.88</priority>
 </url>
 
