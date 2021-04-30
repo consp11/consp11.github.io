@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://consp11.github.io/attacks/2021-атаки.txt</loc>
+<lastmod>2021-04-18</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
 <loc>https://consp11.github.io/cpgy/1.html</loc>
 <lastmod>2020-07-12</lastmod>
 <priority>0.77</priority>
@@ -13,157 +19,25 @@
 
 <url>
 <loc>https://consp11.github.io/cpgy/3.html</loc>
-<lastmod>2021-04-11</lastmod>
-<priority>0.77</priority>
-</url>
-
-<url>
-<loc>https://consp11.github.io/data/keys-primary-2020-0807-1230.7z</loc>
-<lastmod>2020-08-07</lastmod>
-<priority>0.77</priority>
-</url>
-
-<url>
-<loc>https://consp11.github.io/data/keys-primary-2020-0807-1302.7z</loc>
-<lastmod>2020-08-07</lastmod>
-<priority>0.77</priority>
-</url>
-
-<url>
-<loc>https://consp11.github.io/data/keys-primary-2020-0813-1623.7z</loc>
-<lastmod>2020-08-13</lastmod>
-<priority>0.77</priority>
-</url>
-
-<url>
-<loc>https://consp11.github.io/data/keys-primary-2020-0813-1700.7z</loc>
-<lastmod>2020-08-13</lastmod>
-<priority>0.77</priority>
-</url>
-
-<url>
-<loc>https://consp11.github.io/data/keys-primary-2020-0813-1740.7z</loc>
-<lastmod>2020-08-13</lastmod>
-<priority>0.77</priority>
-</url>
-
-<url>
-<loc>https://consp11.github.io/data/keys-primary-2020-0821-1541.7z</loc>
-<lastmod>2020-08-21</lastmod>
-<priority>0.77</priority>
-</url>
-
-<url>
-<loc>https://consp11.github.io/data/keys-primary-2020-0830-1249.7z</loc>
-<lastmod>2020-08-30</lastmod>
-<priority>0.77</priority>
-</url>
-
-<url>
-<loc>https://consp11.github.io/data/keys-primary-2020-0914-1207.7z</loc>
-<lastmod>2020-09-14</lastmod>
-<priority>0.77</priority>
-</url>
-
-<url>
-<loc>https://consp11.github.io/data/keys-primary-2020-0925-2039.7z</loc>
-<lastmod>2020-09-25</lastmod>
-<priority>0.77</priority>
-</url>
-
-<url>
-<loc>https://consp11.github.io/data/keys-primary-2020-1008-1030.7z</loc>
-<lastmod>2020-10-08</lastmod>
-<priority>0.77</priority>
-</url>
-
-<url>
-<loc>https://consp11.github.io/data/keys-primary-2020-1026-1751.7z</loc>
-<lastmod>2020-10-26</lastmod>
-<priority>0.77</priority>
-</url>
-
-<url>
-<loc>https://consp11.github.io/data/keys-primary-2020-1110-2119.7z</loc>
-<lastmod>2020-11-10</lastmod>
-<priority>0.77</priority>
-</url>
-
-<url>
-<loc>https://consp11.github.io/data/keys-primary-2020-1115-2147.7z</loc>
-<lastmod>2020-11-15</lastmod>
-<priority>0.77</priority>
-</url>
-
-<url>
-<loc>https://consp11.github.io/data/keys-primary-2020-1122-2248.7z</loc>
-<lastmod>2020-11-22</lastmod>
-<priority>0.77</priority>
-</url>
-
-<url>
-<loc>https://consp11.github.io/data/keys-primary-2020-1208-1528.7z</loc>
-<lastmod>2020-12-08</lastmod>
-<priority>0.77</priority>
-</url>
-
-<url>
-<loc>https://consp11.github.io/data/keys-primary-2020-1216-1735.7z</loc>
-<lastmod>2020-12-16</lastmod>
-<priority>0.77</priority>
-</url>
-
-<url>
-<loc>https://consp11.github.io/data/keys-primary-2021-0106-1730.7z</loc>
-<lastmod>2021-01-06</lastmod>
-<priority>0.77</priority>
-</url>
-
-<url>
-<loc>https://consp11.github.io/data/keys-primary-2021-0118-0126.7z</loc>
-<lastmod>2021-01-18</lastmod>
-<priority>0.77</priority>
-</url>
-
-<url>
-<loc>https://consp11.github.io/data/keys-primary-2021-0201-2244.7z</loc>
-<lastmod>2021-02-01</lastmod>
-<priority>0.77</priority>
-</url>
-
-<url>
-<loc>https://consp11.github.io/data/keys-primary-2021-0215-1706.7z</loc>
-<lastmod>2021-02-15</lastmod>
-<priority>0.77</priority>
-</url>
-
-<url>
-<loc>https://consp11.github.io/data/keys-primary-2021-0301-1615.7z</loc>
-<lastmod>2021-03-01</lastmod>
-<priority>0.77</priority>
-</url>
-
-<url>
-<loc>https://consp11.github.io/data/keys-primary-2021-0315-1931.7z</loc>
-<lastmod>2021-03-15</lastmod>
-<priority>0.77</priority>
-</url>
-
-<url>
-<loc>https://consp11.github.io/data/keys-primary-2021-0329-1642.7z</loc>
-<lastmod>2021-03-29</lastmod>
-<priority>0.77</priority>
-</url>
-
-<url>
-<loc>https://consp11.github.io/data/keys-primary-2021-0330-2015.7z</loc>
-<lastmod>2021-03-30</lastmod>
+<lastmod>2021-04-20</lastmod>
 <priority>0.77</priority>
 </url>
 
 <url>
 <loc>https://consp11.github.io/data/keys-primary-2021-0407-1903.7z</loc>
 <lastmod>2021-04-07</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/data/keys-primary-2021-0421-1521.7z</loc>
+<lastmod>2021-04-21</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/data/keys-primary-2021-0429-2356.7z</loc>
+<lastmod>2021-04-29</lastmod>
 <priority>0.77</priority>
 </url>
 
@@ -247,7 +121,7 @@
 
 <url>
 <loc>https://consp11.github.io/free/03.html</loc>
-<lastmod>2021-04-16</lastmod>
+<lastmod>2021-04-30</lastmod>
 <priority>0.77</priority>
 </url>
 
@@ -259,7 +133,7 @@
 
 <url>
 <loc>https://consp11.github.io/index.html</loc>
-<lastmod>2021-04-17</lastmod>
+<lastmod>2021-04-30</lastmod>
 <priority>1.00</priority>
 </url>
 
@@ -271,7 +145,7 @@
 
 <url>
 <loc>https://consp11.github.io/index-instructions.html</loc>
-<lastmod>2021-03-31</lastmod>
+<lastmod>2021-04-30</lastmod>
 <priority>0.88</priority>
 </url>
 
@@ -330,6 +204,18 @@
 </url>
 
 <url>
+<loc>https://consp11.github.io/main/15-1-selfsearch.html</loc>
+<lastmod>2021-04-30</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/main/15-general-instruction.html</loc>
+<lastmod>2021-04-30</lastmod>
+<priority>0.77</priority>
+</url>
+
+<url>
 <loc>https://consp11.github.io/main/1-lie.html</loc>
 <lastmod>2020-05-28</lastmod>
 <priority>0.77</priority>
@@ -355,7 +241,7 @@
 
 <url>
 <loc>https://consp11.github.io/main/5-computer.html</loc>
-<lastmod>2020-05-13</lastmod>
+<lastmod>2021-04-30</lastmod>
 <priority>0.77</priority>
 </url>
 
@@ -433,7 +319,7 @@
 
 <url>
 <loc>https://consp11.github.io/main/9-1-detention.html</loc>
-<lastmod>2021-03-31</lastmod>
+<lastmod>2021-04-30</lastmod>
 <priority>0.77</priority>
 </url>
 
@@ -445,13 +331,13 @@
 
 <url>
 <loc>https://consp11.github.io/main/9-examples2.html</loc>
-<lastmod>2021-03-30</lastmod>
+<lastmod>2021-04-30</lastmod>
 <priority>0.77</priority>
 </url>
 
 <url>
 <loc>https://consp11.github.io/main/9-examples3.html</loc>
-<lastmod>2020-11-15</lastmod>
+<lastmod>2021-04-30</lastmod>
 <priority>0.77</priority>
 </url>
 
@@ -487,7 +373,7 @@
 
 <url>
 <loc>https://consp11.github.io/new.html</loc>
-<lastmod>2021-04-17</lastmod>
+<lastmod>2021-04-30</lastmod>
 <priority>0.88</priority>
 </url>
 
@@ -499,19 +385,25 @@
 
 <url>
 <loc>https://consp11.github.io/rss.xml</loc>
-<lastmod>2021-03-30</lastmod>
+<lastmod>2021-04-17</lastmod>
 <priority>0.88</priority>
 </url>
 
 <url>
 <loc>https://consp11.github.io/services.html</loc>
-<lastmod>2021-04-15</lastmod>
+<lastmod>2021-04-30</lastmod>
 <priority>0.88</priority>
 </url>
 
 <url>
 <loc>https://consp11.github.io/services-black.html</loc>
-<lastmod>2021-04-17</lastmod>
+<lastmod>2021-04-18</lastmod>
+<priority>0.88</priority>
+</url>
+
+<url>
+<loc>https://consp11.github.io/services-black-firm.html</loc>
+<lastmod>2021-04-30</lastmod>
 <priority>0.88</priority>
 </url>
 
