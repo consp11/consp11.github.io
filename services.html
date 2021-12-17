@@ -18,7 +18,17 @@
 <h2>Общие сетевые сервисы:</h2>
 
 <ul><li><a href=https://www.torproject.org/download/download-easy.html.en>TorBrowser</a> <a href=http://expyuzz4wqqyqhjn.onion/ru/download/>(скачивание через TOR)</a>
-<li>локальный прокси-сервер <a href=https://www.privoxy.org>privoxy</a> со списками доверия trust.txt
+Режим запроса мостов:
+	https://bridges.torproject.org/bridges
+	либо
+	gettor@torproject.org
+		get transport obfs4
+
+Запрос браузера через e-mail
+	gettor@torproject.org
+	В теле письма указать операционную систему
+
+<li>локальный прокси-сервер <a href=https://www.privoxy.org>privoxy</a> со списками доверия trust.txt (можно использовать для дополнительного разграничения доступа)
 <li>виртуальная машина <a href=https://www.virtualbox.org>VirtualBox</a>, на которую можно устанавливать различные ОС, например: Ubuntu, <a href=https://tails.boum.org/>Tails</a>, <a href=https://linuxmint.com/>Mint</a>, <a href=https://getfedora.org/ru/>Fedora</a>, <a href=https://www.whonix.org/>Whonix</a>
 <li><a href=https://www.docker.com/>Docker</a> - программа для контейнеризации процессов в ОС Linux и Windows 10, позволяющий изолировать процессы от других процессов в ОС без виртуальной машины
 <li><a href=https://www.tribler.org/>Анонимный децентрализованный torrent-клиент</a>
@@ -39,7 +49,7 @@ E-mail
 
 Временные e-mail
 <a href=http://www.temporary-email-address.com/>temporary-email-address.com</a> (одноразовый e-mail - требует JavaScript) <!-- govnomail.xyz -->
-<a href=https://anonymousemail.me>anonymousemail.me</a> (отсылка e-mail без создания ящика; в начале письма вставляет предупреждающий текст)
+<a href=https://anonymousemail.me>anonymousemail.me</a> (отсылка e-mail без создания ящика; в начале письма вставляет предупреждающий текст; tor-узел http://lzo66now3rjf4pdez35v2vfsucnxkpby2rgirrg2mdhhkchgbt7ptwad.onion/ )
 <a href=https://www.emailondeck.com/>emailondeck.com</a>
 <a href=https://guerrillamail.com>guerrillamail.com</a>
 <a href=https://mailnesia.com/>mailnesia.com</a>
@@ -49,10 +59,10 @@ E-mail
 Иные сервисы обмена сообщений
 <a href=https://privnote.com>privnote.com</a> (сервис самоуничтожающихся записок; требуется JavaScript - это плохо, т.к. может использоваться для отслеживания; однако, заявляется, что шифрование записки происходит на клиенте - для этого и нужен JavaScript)
 <a href=https://onetimesecret.com/>onetimesecret.com</a> (ещё один сервис самоуничтожающихся записок; не требует JavaScript)
-<a href=http://cryptorffquolzz6.onion/>Русский сервис одноразовых записок в TOR</a> (требует JavaScript)
+<!-- <a href=http://cryptorffquolzz6.onion/>Русский сервис одноразовых записок в TOR</a> (требует JavaScript) Перестал отвечать -->
 
 
-<a href=https://bitmessage.org/wiki/Main_Page>bitmessage.org</a> (анонимный децентрализованный чат-клиент)
+<a href=https://bitmessage.org/wiki/Main_Page>bitmessage.org</a> (анонимный децентрализованный чат-клиент) <a href=https://github.com/topics/bitmessage>Ссылка для поиска альтернативных клиентов</a> (официальный клиент был заброшен)
 <!-- https://ru.wikipedia.org/wiki/Анонимные_сети -->
 
 <hr>
@@ -66,11 +76,12 @@ E-mail
 
 <a href=https://www.veracrypt.fr/en/Home.html>VeraCrypt</a> (шифрование дисков)
 
-<a href=https://www.openssl.org>OpenSSL</a> <a href=http://slproweb.com/products/Win32OpenSSL.html>для Windows</a>
+<!--
+<a href=https://www.openssl.org>OpenSSL</a> <a href=http://slproweb.com/products/Win32OpenSSL.html>для Windows</a> Нет архива сейчас -->
 
 <a href=https://gnupg.org/>GnuPG</a> <a href=https://gpg4win.org/download.html>для Windows</a> (не самый стойкий продукт, по-умолчанию использует 128-битное шифрование)
 
-<a href=https://keepass.info/>KeePass</a> (менеджер паролей)
+<a href=https://keepass.info/>KeePass</a> (менеджер паролей) (под Mint можно попробовать использовать репозитории keepass2 или keepassx)
 
 <a href=https://www.7-zip.org>7-zip</a> (архиватор; есть встроенные функции шифрования; использование для шифрования незначительной информации)
 <a href=https://embeddedsw.net/OpenPuff_Steganography_Home_ru.html>OpenPuff</a> (стеганографическое приложение)
@@ -84,25 +95,48 @@ E-mail
 <hr>
 <h2>Диски в оперативной памяти (без шифрования)</h2>
 
+Для Windows
 <a href=http://www.ltr-data.se/opencode.html/#ImDisk>ImDisk</a>
 
 (<a href=https://sourceforge.net/projects/imdisk-toolkit/>ImDisk Toolkit</a>)
 
 <a href=http://memory.dataram.com/products-and-services/software/ramdisk>Dataram RamDisk</a> (смотрите бесплатную версию - один диск до гигабайта)
 
+Для Linux
+Используйте стандартный tmpfs (без возможности сохранить на диск)
+Пример записи в файле /etc/fstab
+none    /dirInRam  tmpfs   noexec,rw,nosuid,nodev,size=512M
+
 <hr>
 <h2>Удаление данных</h2>
 <a href=https://eraser.heidi.ie/download/>Eraser</a> программа для удаления файлов и очистки свободного места на диске. Делает примерно то же, что и BlackDisplay (см. выше в криптографии), но требует административных привилегий и уничтожает более надёжно и на более низком уровне (рекомендуется).
 
+Под Linux можно использовать shred или srm
+Примеры
+shred -n 0 -zvu -f txt.txt
+shred -n 0 -zvu -f *
+Команда уже есть в Linux
 
+Установка устаревшего пакета secure-delete
+sfill перезатирает свободное место на диске
+srm удаляет файл
+Примеры
+srm -fllzv txt.txt
+
+Очищает информацию в inodes
+sfill -ifllzv /
+Очищает свободное место на диске
+sfill -fllzv /
+Перезатирание оперативной памяти (может вызвать временное зависание; требует админских прав)
+sudo sdmem -fllvz
 
 <hr>
 <h2>DNS-сервера</h2>
-<a htref=https://dns.watch>dns.watch</a> (включая "DNS over https")
-<a htref=https://www.quad9.net>quad9.net</a>
-<a htref=https://www.opennic.org>opennic.org</a>
-<a htref=https://dns.yandex.ru>Яндекс.DNS</a>
-<a htref=https://developers.google.com/speed/public-dns/docs/using>Google DNS</a>
+<a href=https://dns.watch>dns.watch</a> (включая "DNS over https")
+<a href=https://www.quad9.net>quad9.net</a>
+<a href=https://www.opennic.org>opennic.org</a>
+<a href=https://dns.yandex.ru>Яндекс.DNS</a>
+<a href=https://developers.google.com/speed/public-dns/docs/using>Google DNS</a>
 
 <hr>
 <h2>Иные сервисы</h2>
