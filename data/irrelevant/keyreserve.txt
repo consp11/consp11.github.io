@@ -3,20 +3,6 @@
 
 Резервные копии ключей
 
-
-
-yandex.disk
-
-keys-primary.7z (keys-primary-2021-11-03.7z)
-	https://disk.yandex.ru/d/810zrOzUq8Dmaw
-
-mega
-
-keys-primary-2021-11-03.7z
-	https://mega.nz/file/xZFVTCwB#6QK5BDKVuRbRt8cAhsQSrxN5sztMeB6vKWYHmC-no7U
-
-
-
 Этот файл
 
 https://mega.nz/folder/AB0WnbCC#gH-BKJ1lJZpLlkOfuJFPXg
