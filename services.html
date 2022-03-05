@@ -39,17 +39,26 @@
 <hr>
 <h2 id=email>Сервисы обмена сообщений</h2>
 
-E-mail
-Постоянные e-mail и алиасы
+<h3>E-mail</h3>
+<h4>Постоянные e-mail и алиасы<h4>
 
-<a href=https://www.msgsafe.io/>msgsafe.io</a> (постоянный e-mail только на приём сообщений; до 10 бесплатных алиасов; возможно зарегистрироваться через TOR; для того, чтобы отсылать сообщения, нужно указать другой e-mail)
+<a href=https://www.msgsafe.io/>msgsafe.io</a> (постоянный e-mail только на приём сообщений; до 10 бесплатных алиасов; возможно зарегистрироваться через TOR; для того, чтобы отсылать сообщения, нужно указать другой e-mail, например tuta.io)
 <a href=https://tutanota.com/ru/>tuta.io она же tutanota.com</a> (постоянный e-mail только на приём сообщений; при попытке создать ящик через TOR банит на 48-мь часов; однако, после этого срока, ящиком возможно пользоваться для получения корреспонденции, но не для отправки)
+
+<a href=http://mail2torjgmxgexntbrmhvgluavhj7ouul5yar6ylbvjkxwqf6ixkwyd.onion/>mail2tor.com</a> (почтовый onion-сервис. Присутствие кириллицы в заголовке e-mail'a приводит к невозможности прочитать текст сообщения. Присутствие кириллицы в тексте сообщения приводит к тому, что сообщение возможно прочитать только скачав его в html-формате)
 
 <a href=https://relay.firefox.com/>Псевдонимы для адресов e-mail</a> (требуется аккаунт на accounts.firefox.com; обратите внимание, это сервис от фирмы Mozilla, доверие к ней крайне ограниченное [в чёрном списке сайта], но в бытовом плане пользоваться можно)
 <a href=https://protonmail.com>Protonmail</a> (e-mail с функциями самоуничтожения; забанен в России, для доступа нужно использовать TOR или VPN; не позволяет создавать через TOR, требует указания другого e-mail, за временные e-mail банит; имеет функции автоматического удаления сообщений по прошествию времени)
 
 
-Временные e-mail
+<!-- h4>e-mail внутри сервисов</h4>
+TorBox
+Сервис доступен только через TOR. Почту можно отправлять внутри этого сервиса
+http://torbox36ijlcevujx7mjb4oiusvwgvmue7jfn2cvutwa6kl6to3uyqad.onion
+Не работает хрень - не удалось нормально зарегистрироваться (точнее, невозможно авторизоваться, а при аутентификации был отладочный вывод)
+-->
+
+<h4>Временные e-mail</h4>
 <a href=http://www.temporary-email-address.com/>temporary-email-address.com</a> (одноразовый e-mail - требует JavaScript) <!-- govnomail.xyz -->
 <a href=https://anonymousemail.me>anonymousemail.me</a> (отсылка e-mail без создания ящика; в начале письма вставляет предупреждающий текст; tor-узел http://lzo66now3rjf4pdez35v2vfsucnxkpby2rgirrg2mdhhkchgbt7ptwad.onion/ )
 <a href=https://www.emailondeck.com/>emailondeck.com</a>
@@ -58,13 +67,13 @@ E-mail
 <a href=https://temp-mail.org/ru/>temp-mail.org</a> (одноразовые e-mail - требуют JavaScript; невозможно использовать из-под TOR; много доменных имён, поэтому если один ящик не прошёл, можно попробовать создать другой)
 
 
-Иные сервисы обмена сообщений
+<h3>Одноразовые записки</h3>
 <a href=https://privnote.com>privnote.com</a> (сервис самоуничтожающихся записок; требуется JavaScript - это плохо, т.к. может использоваться для отслеживания; однако, заявляется, что шифрование записки происходит на клиенте - для этого и нужен JavaScript)
 <a href=https://onetimesecret.com/>onetimesecret.com</a> (ещё один сервис самоуничтожающихся записок; не требует JavaScript)
-<!-- <a href=http://cryptorffquolzz6.onion/>Русский сервис одноразовых записок в TOR</a> (требует JavaScript) Перестал отвечать -->
+<!-- a href=https://blackhost.xyz/?id=pst>blackhost.xyz</a> (сервис самоуничтожающихся записок; tor-адрес: https://blackhost7pws76u6vohksdahnm6adf7riukgcmahrwt43wv2drvyxid.onion ; почта требует другой адрес электронной почты ) НЕ РАБОТАЕТ!!! -->
 
-
-<a href=https://bitmessage.org/wiki/Main_Page>bitmessage.org</a> (анонимный децентрализованный чат-клиент) <a href=https://github.com/topics/bitmessage>Ссылка для поиска альтернативных клиентов</a> (официальный клиент был заброшен)
+<h3>Иные сервисы обмена сообщений</h3>
+<a href=https://bitmessage.org/wiki/Main_Page>bitmessage.org</a> (анонимный децентрализованный чат-клиент) <a href=https://github.com/topics/bitmessage>Ссылка для поиска альтернативных клиентов</a> (официальный клиент был заброшен после обнаружения критической уязвимости и её исправления)
 <!-- https://ru.wikipedia.org/wiki/Анонимные_сети -->
 
 <hr>
@@ -108,6 +117,8 @@ E-mail
 Используйте стандартный tmpfs (без возможности сохранить на диск)
 Пример записи в файле /etc/fstab
 none    /dirInRam  tmpfs   noexec,rw,nosuid,nodev,size=512M
+(noexec - запрет запуска, size=512M - максимум 512 Мб в памяти)
+
 
 <hr>
 <h2>Удаление данных</h2>
