@@ -4,7 +4,7 @@ User-agent: *
 # yearly
 # monthly
 # weekly
-Sitemap: https://consp11.github.io/sitemap.xml
+# Sitemap: https://consp11.github.io/sitemap.xml
 
 Disallow: /data/about.html
 Disallow: /template.html
