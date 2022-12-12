@@ -94,8 +94,8 @@ Temp-Mail.org
 
 <hr>
 <h2 id="tmplink">Одноразовые ссылки</h2>
-<a href=https://tmp.coderhs.com/>Сервис одноразовых ссылок tmp.coderhs.com</a>
 <a href=https://www.5657.ru/>Сервис одноразовых ссылок 5657.ru</a>
+<a href=https://tmp.coderhs.com/>Сервис одноразовых ссылок tmp.coderhs.com</a> (не загружался при проверке в декабре 2022)
 
 
 <hr>
@@ -106,11 +106,11 @@ Temp-Mail.org
 <!--
 <a href=https://www.openssl.org>OpenSSL</a> <a href=http://slproweb.com/products/Win32OpenSSL.html>для Windows</a> Нет архива сейчас -->
 
-<a href=https://gnupg.org/>GnuPG</a> <a href=https://gpg4win.org/download.html>для Windows</a> (не самый стойкий продукт, по-умолчанию использует 128-битное шифрование)
+<a href=https://gnupg.org/>GnuPG</a> <a href=https://gpg4win.org/download.html>для Windows</a> (не самый стойкий продукт, по-умолчанию использует 128-битное шифрование). Под Linux GPG уже входит в установку по умолчанию. Можно также работать с репозиториями gpa и kleopatra.
 
 <a href=https://keepass.info/>KeePass</a> (менеджер паролей) (под Mint можно попробовать использовать репозитории keepass2 или keepassx)
 
-<a href=https://www.7-zip.org>7-zip</a> (архиватор; есть встроенные функции шифрования; использование для шифрования незначительной информации)
+<a href=https://www.7-zip.org>7-zip</a> (архиватор; есть встроенные функции шифрования; использование для шифрования незначительной информации; 7z установлен по-умолчанию в Linux)
 <a href=https://embeddedsw.net/OpenPuff_Steganography_Home_ru.html>OpenPuff</a> (стеганографическое приложение)
 <a href=https://embeddedsw.net/MultiObfuscator_Cryptography_Home.html>MultiObfuscator</a> (приложение для шифрования файлов; не доверяйте этой программе слишком сильно; лучше ей шифровать уже зашифрованные данные)
 <a href=https://github.com/fdsc/old/releases id=ssMATCieMOnoDir3hwir8oTOPQhFvAgAr>BlackDisplay</a>. Программа для шифрования и уничтожения данных для Windows, требует .NET. Не рекомендуется к использованию, т.к. снята с поддержки и немного глючная.
@@ -122,15 +122,15 @@ Temp-Mail.org
 <hr>
 <h2>Диски в оперативной памяти (без шифрования)</h2>
 
-Для Windows
+Для Windows:
 <a href=http://www.ltr-data.se/opencode.html/#ImDisk>ImDisk</a>
 
 (<a href=https://sourceforge.net/projects/imdisk-toolkit/>ImDisk Toolkit</a>)
 
 <a href=http://memory.dataram.com/products-and-services/software/ramdisk>Dataram RamDisk</a> (смотрите бесплатную версию - один диск до гигабайта)
 
-Для Linux
-Используйте стандартный tmpfs (без возможности сохранить на диск)
+Для Linux:
+Используйте стандартный tmpfs (без возможности сохранить на диск; для сохранения - используйте тома VeraCrypt)
 Пример записи в файле /etc/fstab
 none    /dirInRam  tmpfs   noexec,rw,nosuid,nodev,size=512M
 (noexec - запрет запуска, size=512M - максимум 512 Мб в памяти)
@@ -138,6 +138,7 @@ none    /dirInRam  tmpfs   noexec,rw,nosuid,nodev,size=512M
 
 <hr>
 <h2>Удаление данных</h2>
+Для Windows:
 <a href=https://eraser.heidi.ie/download/>Eraser</a> программа для удаления файлов и очистки свободного места на диске. Делает примерно то же, что и BlackDisplay (см. выше в криптографии), но требует административных привилегий и уничтожает более надёжно и на более низком уровне (рекомендуется).
 
 Под Linux можно использовать shred или srm
@@ -146,18 +147,8 @@ shred -n 0 -zvu -f txt.txt
 shred -n 0 -zvu -f *
 Команда уже есть в Linux
 
-Установка устаревшего пакета secure-delete
-sfill перезатирает свободное место на диске
-srm удаляет файл
-Примеры
-srm -fllzv txt.txt
-
-Очищает информацию в inodes
-sfill -ifllzv /
-Очищает свободное место на диске
-sfill -fllzv /
-Перезатирание оперативной памяти (может вызвать временное зависание; требует админских прав)
-sudo sdmem -fllvz
+.NET или Mono:
+<a href=https://github.com/VinnySmallUtilities/sdel>Программа для перезатирания</a> для .NET (работает с Mono под Linux)
 
 
 
