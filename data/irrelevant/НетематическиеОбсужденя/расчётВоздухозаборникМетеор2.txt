@@ -106,16 +106,19 @@ format short g
 fixed_point_format(true)
 output_precision(3)
 
-Lrow=4;
+Lrow=min(12, length(altitudes));
+
 disp("Высота, км")
 disp(altitudes(1:Lrow))
 disp("Дистанция применения, км")
 disp(Distance(1:Lrow)/1e3)
 
+if (Lrow < length(altitudes))
 disp("Высота, км")
 disp(altitudes(Lrow+1:length(altitudes)))
 disp("Дистанция применения, км")
 disp(Distance(Lrow+1:length(Distance))/1e3)
+endif
 
 format long eng
 fixed_point_format(false)
