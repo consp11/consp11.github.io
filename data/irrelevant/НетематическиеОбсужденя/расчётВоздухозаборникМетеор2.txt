@@ -112,12 +112,16 @@ disp("Высота, км")
 disp(altitudes(1:Lrow))
 disp("Дистанция применения, км")
 disp(Distance(1:Lrow)/1e3)
+disp("Нехватка воздухозаборников, разы")
+disp(Ksair(1:Lrow))
 
 if (Lrow < length(altitudes))
 disp("Высота, км")
 disp(altitudes(Lrow+1:length(altitudes)))
 disp("Дистанция применения, км")
 disp(Distance(Lrow+1:length(Distance))/1e3)
+disp("Нехватка воздухозаборников, разы")
+disp(Ksair(1:Lrow))
 endif
 
 format long eng
