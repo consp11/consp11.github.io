@@ -1,5 +1,6 @@
 # Это скрипт для GNU Octave. Операции "./", ".*", ".^" - это обычные операции умножения, только применяемые на массивы (i-ый элемент результата получается применением операции к i-ым элементам исходных массивов)
 format long eng
+format compact
 
 # Диаметр ракеты "Метеор" составляет 0,178 метра
 d=0.178
@@ -101,7 +102,20 @@ for i = 1:length(roInDrive)
   endif
 end
 
-disp("Высоты")
-disp(altitudes)
-disp("Дистанция применения")
-disp(Distance)
+format short g
+fixed_point_format(true)
+output_precision(3)
+
+Lrow=4;
+disp("Высота, км")
+disp(altitudes(1:Lrow))
+disp("Дистанция применения, км")
+disp(Distance(1:Lrow)/1e3)
+
+disp("Высота, км")
+disp(altitudes(Lrow+1:length(altitudes)))
+disp("Дистанция применения, км")
+disp(Distance(Lrow+1:length(Distance))/1e3)
+
+format long eng
+fixed_point_format(false)
