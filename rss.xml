@@ -3,10 +3,25 @@
 <channel>
 <atom:link href="http://vinj.u/rss.php" rel="self" type="application/rss+xml" />
 
+<!-- Основное Сервисы Контакты Конспирология Упражнения -->
+<!-- date -R -->
+<!-- new Date().toUTCString() -->
+
+
 <title>Новости Курса гражданской конспирации</title>
 <link>https://consp11.github.io/</link>
 <description>Новости Курса гражданской конспирации</description>
 <lastBuildDate>Mon, 19 Jun 2023 07:17:16 +0300</lastBuildDate>
+
+<item>
+	<title>Добавлены ссылки на мессенджеры Session и SimpleX</title>
+	<link>https://consp11.github.io/new.html#20251024</link>
+	<description>В раздел "Сервисы" добавлены ссылки на мессенджеры Session и SimpleX. Кроме этого, раздел "Упражнения для ума" пополняться, видимо, больше не будет. Вообще, похоже, я забросил курс в связи с отсутствием к нему интереса среди читателей.</description>
+	<category>Упражнения</category>
+    <category>Сервисы</category>
+	<pubDate>Fri, 24 Oct 2025 11:30:26 +0300</pubDate>
+	<guid>202510241130</guid>
+</item>
 
 <item>
 	<title>Пассивное сопротивление при мобилизации</title>
